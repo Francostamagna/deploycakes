@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cakes",
+  "info": {
+    "singularName": "cake",
+    "pluralName": "cakes",
+    "displayName": "Cakes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "toppingType": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "price": {
+      "type": "string"
+    },
+    "comboPrice": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
